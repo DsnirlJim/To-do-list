@@ -68,6 +68,17 @@ html {
   background-color: #47e3b6;
   cursor: pointer;
 }
+ul li cross {
+  position: absolute;
+  right: 0;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+ul li cross:hover {
+  transition-duration: 0.2s;
+  background-color: grey;
+  cursor: pointer;
+}
 /* li:hover {
   background-color: #47e3b6;
 } */

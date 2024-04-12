@@ -1,6 +1,5 @@
 const aufgabenListe = document.getElementById("item-list");
 const textFeld = document.getElementById("add");
-
 // Add Button
 const addButton = document.getElementById("add-btn");
 
@@ -12,6 +11,9 @@ function addItem() {
     li.innerHTML = textFeld.value;
     li.className = "list-group-item";
     aufgabenListe.appendChild(li);
+    let cross = document.createElement("cross");
+    cross.innerHTML = "\u00d7";
+    li.appendChild(cross);
   }
   textFeld.value = "";
 }
@@ -30,3 +32,15 @@ function clearList() {
 }
 
 clearButton.addEventListener("click", clearList);
+
+//delete
+const Deletebutton = document.getElementById("item-list");
+Deletebutton.addEventListener(
+  "click",
+  function (Deletethis) {
+    if (Deletethis.target.matches("cross")) {
+      Deletethis.target.parentElement.remove();
+    }
+  },
+  false
+);
