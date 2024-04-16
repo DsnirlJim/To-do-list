@@ -51,34 +51,66 @@ html {
 
 .ulli {
   display: block;
-  margin-left: 30%;
+  margin-left: 25%;
+  width: 30rem;
 }
+
 .add {
   width: 20rem;
+  border-right: none;
   border-radius: 3rem 0rem 0rem 3rem;
   padding: 0.5rem;
-  margin: 0.5rem;
+  margin: 0rem;
   background: transparent;
 }
+
+/* div Button list */
+.btnlist {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0.3rem;
+  flex-direction: row;
+}
+
+/* addbutton */
 .btnadditem {
+  border-radius: 0rem 3rem 3rem 0rem;
+  border-left: none;
   width: 7rem;
-  border-radius: 3rem;
   padding: 0.5rem;
-  margin: 0.5rem;
-  background-color: #47e3b6;
   cursor: pointer;
 }
+
+/* clear button */
+.btnadditem1 {
+  border-radius: 3rem 3rem 3rem 3rem;
+  width: 7rem;
+  padding: 0.5rem;
+
+  cursor: pointer;
+}
+/* editbutton */
+.btnadditem2 {
+  border-radius: 3rem 3rem 3rem 3rem;
+  width: 7rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
 ul li cross {
   position: absolute;
   right: 0;
   font-size: 2rem;
   line-height: 2rem;
 }
+
 ul li cross:hover {
   transition-duration: 0.2s;
   background-color: grey;
   cursor: pointer;
 }
+
 /* li:hover {
-  background-color: #47e3b6;
-} */
+    background-color: #47e3b6;
+  } */
