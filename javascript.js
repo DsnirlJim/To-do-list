@@ -88,7 +88,13 @@ aufgabenListe.addEventListener("click", function (event) {
     }
   }
 });
-
+//check
+const listContainer = document.getElementById("itemlist");
+listContainer.addEventListener("click", (event) => {
+  if (event.target.matches("li") === true) {
+    event.target.classList.toggle("checked");
+  }
+});
 // LocalStorage
 function Local(){
   localStorage.setItem("data",itemlist.innerHTML);
