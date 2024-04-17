@@ -110,7 +110,9 @@ ul li cross:hover {
   background-color: grey;
   cursor: pointer;
 }
-
+.list-group-item.selected {
+  background-color: grey;
+}
 /* li:hover {
     background-color: #47e3b6;
   } */
