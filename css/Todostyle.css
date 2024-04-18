@@ -111,10 +111,12 @@ ul li cross:hover {
   cursor: pointer;
 }
 .list-group-item.selected {
-  background-color: grey;
+  background-color: wheat;
 }
+
 ul li.checked {
-  color: #555;
+  
+  color: #1080f0;
   text-decoration: line-through;
 }
 /* li:hover {
