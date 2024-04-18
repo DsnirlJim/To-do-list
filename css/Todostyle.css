@@ -13,7 +13,7 @@ html {
 }
 
 .container {
-  margin: 15% auto;
+  margin: 0% ;
   width: 100%;
   min-height: 100vh;
   padding: 1 rem;
@@ -52,7 +52,7 @@ html {
 .ulli {
   display: block;
   margin-left: 25%;
-  width: 30rem;
+  width: 50%;
 }
 
 .add {
@@ -77,7 +77,7 @@ html {
 .btnadditem {
   border-radius: 0rem 3rem 3rem 0rem;
   border-left: none;
-  width: 7rem;
+   width: 7rem; 
   padding: 0.5rem;
   cursor: pointer;
 }
@@ -96,6 +96,7 @@ html {
   width: 7rem;
   padding: 0.5rem;
   cursor: pointer;
+  margin-left:1em ;
 }
 
 ul li cross {
@@ -122,3 +123,34 @@ ul li.checked {
 /* li:hover {
     background-color: #47e3b6;
   } */
+
+.headertodo {
+  padding: 1em;
+  background-color: chocolate;
+  min-width: 100%;
+  margin: 0rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.logona {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headercontant {
+
+  min-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+  

@@ -23,7 +23,7 @@ function addItem() {
 addButton.addEventListener("click", addItem);
 
 // Clear Button
-const clearButton = document.getElementById("clear-button");
+const clearButton = document.getElementById("clear_button");
 
 function clearList() {
   if (aufgabenListe.innerHTML === "") {
@@ -54,7 +54,7 @@ Deletebutton.addEventListener(
 
 // Edit button
 
-const editButton = document.getElementById("Edit-button");
+const editButton = document.getElementById("Edit_button");
 
 function editTask() {
   const selectedTask = document.querySelector(".list-group-item.selected");
