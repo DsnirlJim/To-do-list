@@ -62,7 +62,9 @@ function editTask() {
     const newText = prompt("Edit task:", selectedTask.textContent);
     if (newText !== null) {
       selectedTask.textContent = newText;
-    
+      let cross = document.createElement("cross");
+      cross.innerHTML = "\u00d7";
+      selectedTask.appendChild(cross);
     }
   } else {
     alert("Please select a task to edit.");
